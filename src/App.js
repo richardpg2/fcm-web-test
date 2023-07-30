@@ -53,9 +53,7 @@ export default function App() {
         </div>
       )}
 
-      <a href="#" className="notification-banner-link" onClick={handleGetFirebaseToken}>
-        Show token
-      </a>
+      <button onClick={handleGetFirebaseToken}>Show token</button>
 
       <p>Token: {token}</p>
       <button onClick={() => copy(token)} class="btn-primary">
